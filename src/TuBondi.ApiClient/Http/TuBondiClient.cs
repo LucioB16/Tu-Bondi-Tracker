@@ -181,6 +181,7 @@ public sealed class TuBondiClient : ITuBondiClient, IDisposable
         options.Converters.Add(new FlexibleDoubleConverter());
         options.Converters.Add(new FlexibleIntConverter());
         options.Converters.Add(new TrazaPointConverter());
+        options.Converters.Add(new GeoPointConverter());
         return options;
     }
 

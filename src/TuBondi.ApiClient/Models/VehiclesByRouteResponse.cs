@@ -21,10 +21,10 @@ public sealed class VehiclesByRouteResponse
     public string? Notificacion { get; init; }
 
     /// <summary>
-    /// Detalles adicionales de error proporcionados por el backend.
+    /// Detalles adicionales de error proporcionados por el backend; es <see langword="null"/> cuando no se reportan advertencias.
     /// </summary>
     [JsonPropertyName("error")]
-    public object? Error { get; init; }
+    public IReadOnlyList<string>? Error { get; init; }
 }
 
 /// <summary>
@@ -45,23 +45,66 @@ public sealed class Coche
     public string? Linea { get; init; }
 
     /// <summary>
+    /// Sentido operativo reportado en el horario.
+    /// </summary>
+    [JsonPropertyName("sentido")]
+    public string? Sentido { get; init; }
+
+    /// <summary>
     /// Ruta en la que circula actualmente.
     /// </summary>
     [JsonPropertyName("ruta")]
     public string? Ruta { get; init; }
 
     /// <summary>
+    /// Próxima ruta asociada según el backend.
+    /// </summary>
+    [JsonPropertyName("ruta_siguiente")]
+    public string? RutaSiguiente { get; init; }
+
+    /// <summary>
+    /// Identificador del servicio en ejecución.
+    /// </summary>
+    [JsonPropertyName("servicio")]
+    public string? Servicio { get; init; }
+
+    /// <summary>
+    /// Número de media vuelta reportado.
+    /// </summary>
+    [JsonPropertyName("media_vuelta")]
+    public string? MediaVuelta { get; init; }
+
+    /// <summary>
+    /// Código del itinerario actual.
+    /// </summary>
+    [JsonPropertyName("itinerario_codigo")]
+    public string? ItinerarioCodigo { get; init; }
+
+    /// <summary>
+    /// Marca temporal del itinerario en formato <c>yyyy-MM-dd HH:mm:ss</c>.
+    /// </summary>
+    [JsonPropertyName("itinerario_fechayhora")]
+    public string? ItinerarioFechaYHora { get; init; }
+
+    /// <summary>
     /// Cliente u operador asociado.
     /// </summary>
     [JsonPropertyName("cliente")]
-    public string? Cliente { get; init; }
+    [JsonConverter(typeof(FlexibleIntConverter))]
+    public int Cliente { get; init; }
 
     /// <summary>
-    /// Demora informada en minutos. El valor <c>99999</c> indica información no disponible.
+    /// Demora informada en minutos. El valor centinela <c>99999</c> indica que la demora es desconocida.
     /// </summary>
     [JsonPropertyName("demora_minutos")]
     [JsonConverter(typeof(FlexibleDoubleConverter))]
     public double DemoraMinutos { get; init; }
+
+    /// <summary>
+    /// Demora textual (por ejemplo <c>"14min"</c>) si está disponible.
+    /// </summary>
+    [JsonPropertyName("demora")]
+    public string? Demora { get; init; }
 
     /// <summary>
     /// Velocidad aproximada en kilómetros por hora.
@@ -71,10 +114,28 @@ public sealed class Coche
     public double Velocidad { get; init; }
 
     /// <summary>
-    /// Marca de tiempo en formato de texto devuelta por el backend.
+    /// Marca de tiempo en formato <c>+/-HH:MM:SS</c> devuelta por el backend.
     /// </summary>
     [JsonPropertyName("tiempo")]
     public string? Tiempo { get; init; }
+
+    /// <summary>
+    /// Prioridad de pantalla o display configurado para el servicio.
+    /// </summary>
+    [JsonPropertyName("pantalla")]
+    public string? Pantalla { get; init; }
+
+    /// <summary>
+    /// Indicador de rampa de accesibilidad.
+    /// </summary>
+    [JsonPropertyName("rampa")]
+    public string? Rampa { get; init; }
+
+    /// <summary>
+    /// Número de serie del vehículo.
+    /// </summary>
+    [JsonPropertyName("serie")]
+    public string? Serie { get; init; }
 
     /// <summary>
     /// Coordenada de latitud del vehículo.
@@ -91,6 +152,30 @@ public sealed class Coche
     public double Lon { get; init; }
 
     /// <summary>
+    /// Identificador interno auxiliar (<c>horario_sentido</c>).
+    /// </summary>
+    [JsonPropertyName("horario_sentido")]
+    public string? HorarioSentido { get; init; }
+
+    /// <summary>
+    /// Valor auxiliar <c>horario_media_vuelta</c> asociado al plan.
+    /// </summary>
+    [JsonPropertyName("horario_media_vuelta")]
+    public string? HorarioMediaVuelta { get; init; }
+
+    /// <summary>
+    /// Color sugerido para representar el coche.
+    /// </summary>
+    [JsonPropertyName("color")]
+    public string? Color { get; init; }
+
+    /// <summary>
+    /// Comentario libre enviado por el backend.
+    /// </summary>
+    [JsonPropertyName("comentario")]
+    public string? Comentario { get; init; }
+
+    /// <summary>
     /// Valor entero auxiliar reportado como <c>i</c> por la API (p.ej. prioridad o índice).
     /// </summary>
     [JsonPropertyName("i")]
@@ -103,4 +188,10 @@ public sealed class Coche
     [JsonPropertyName("curso")]
     [JsonConverter(typeof(FlexibleDoubleConverter))]
     public double Curso { get; init; }
+
+    /// <summary>
+    /// Hora teórica ajustada en formato <c>HH:mm:ss</c>, cuando la API la provee.
+    /// </summary>
+    [JsonPropertyName("horaTeoricaAjustada")]
+    public string? HoraTeoricaAjustada { get; init; }
 }

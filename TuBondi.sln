@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuBondi.Infrastructure", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuBondi.Presentation.WebApi", "src/TuBondi.Presentation.WebApi/TuBondi.Presentation.WebApi.csproj", "{B9B2A3C5-9252-4EB8-930D-5235E1061E2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuBondi.Tests", "tests/TuBondi.Tests/TuBondi.Tests.csproj", "{1A53F7BE-57C5-4A8F-B7F7-843172DBD4C0}"
+EndProject
 Global
 GlobalSection(SolutionConfigurationPlatforms) = preSolution
 Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ GlobalSection(ProjectConfigurationPlatforms) = postSolution
 {B9B2A3C5-9252-4EB8-930D-5235E1061E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 {B9B2A3C5-9252-4EB8-930D-5235E1061E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 {B9B2A3C5-9252-4EB8-930D-5235E1061E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+{1A53F7BE-57C5-4A8F-B7F7-843172DBD4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{1A53F7BE-57C5-4A8F-B7F7-843172DBD4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{1A53F7BE-57C5-4A8F-B7F7-843172DBD4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{1A53F7BE-57C5-4A8F-B7F7-843172DBD4C0}.Release|Any CPU.Build.0 = Release|Any CPU
 EndGlobalSection
 GlobalSection(SolutionProperties) = preSolution
 HideSolutionNode = FALSE

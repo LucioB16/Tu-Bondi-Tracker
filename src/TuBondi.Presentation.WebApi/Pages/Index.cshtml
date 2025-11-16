@@ -1,0 +1,8 @@
+@page
+@model TuBondi.Presentation.WebApi.Pages.IndexModel
+<section class="hero">
+    <div class="hero__copy">
+        <p>Parada @Model.StopCode · @Model.StopDescription</p>
+    </div>
+</section>
+<led-board endpoint="/api/arrivals"></led-board>

@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  transit-tracker:
+    build: .
+    image: cordoba-transit-tracker:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - TuBondi__BaseUrl=https://micronauta4.dnsalias.net/
+      - TuBondi__Conf=cbaciudad
+      - Tracker__StopCode=A911
+      - Tracker__Lines=40,42,71
+      - Tracker__UpdateIntervalSeconds=25

@@ -1,5 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../TuBondi.Application/TuBondi.Application.csproj" />
+    <ProjectReference Include="../TuBondi.Domain/TuBondi.Domain.csproj" />
+    <ProjectReference Include="../TuBondi.ApiClient/TuBondi.ApiClient.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+    <PackageReference Include="Polly" Version="8.2.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>TuBondi.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
 </Project>

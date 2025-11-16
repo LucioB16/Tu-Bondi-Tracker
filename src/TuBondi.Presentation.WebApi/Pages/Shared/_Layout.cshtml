@@ -1,0 +1,19 @@
+@{
+    var title = ViewData["Title"] as string ?? "Córdoba Transit Tracker";
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@title</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <script src="~/js/board.js" asp-append-version="true" defer></script>
+</head>
+<body>
+    <main class="app-shell">
+        @RenderBody()
+    </main>
+</body>
+</html>

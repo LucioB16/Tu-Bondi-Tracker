@@ -1,5 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>TuBondi.Presentation.WebApi</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../TuBondi.Application/TuBondi.Application.csproj" />
+    <ProjectReference Include="../TuBondi.Domain/TuBondi.Domain.csproj" />
+    <ProjectReference Include="../TuBondi.Infrastructure/TuBondi.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="10.0.0" />
+  </ItemGroup>
 </Project>

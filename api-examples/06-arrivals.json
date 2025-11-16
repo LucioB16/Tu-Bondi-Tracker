@@ -1,0 +1,94 @@
+{
+    "parada": {
+        "codigo": "A911",
+        "descripcion": "AV. DUARTE QUIROS 1717-1728"
+    },
+    "proximos_arribos": [
+        {
+            "coche": "279",
+            "linea": "42",
+            "sentido": "V",
+            "ruta_siguiente": "98",
+            "pantalla": "0",
+            "rampa": "1",
+            "serie": "200998",
+            "horario_sentido": "V",
+            "horario_media_vuelta": "6",
+            "color": "#ff9500",
+            "comentario": "",
+            "a": [
+                -31.411930000000005,
+                -64.208283,
+                -31.4036,
+                -64.241653
+            ],
+            "dist_parada": 3300,
+            "horaTeoricaAjustada": "13:40:27",
+            "horaTeorica": "13:44:15",
+            "proximo": "11min",
+            "distancia": 10.550000000000068,
+            "cliente": 411,
+            "cliente_nombre": "CONIFERAL",
+            "linea_nombre": "42",
+            "ruta": "99",
+            "ruta_descripcion": "PARQUE REPUBLICA A PATRICIOS",
+            "hora_salida": "13:40",
+            "notificacion": "Se anula paradas en Maip\u00fa 444 y Maip\u00fa 770. Parada provisoria en Maip\u00fa 570.Av. Olmos - Av. Maip\u00fa (Carril derecho) - Su ruta"
+        },
+        {
+            "coche": "324",
+            "linea": "40",
+            "sentido": "I",
+            "ruta_siguiente": "89",
+            "pantalla": "0",
+            "rampa": "1",
+            "serie": "200455",
+            "horario_sentido": "I",
+            "horario_media_vuelta": "6",
+            "color": "#ff9500",
+            "comentario": "",
+            "a": [
+                -31.411930000000005,
+                -64.208283,
+                -31.401615999999994,
+                -64.267999
+            ],
+            "dist_parada": 5780,
+            "horaTeoricaAjustada": "13:51:22",
+            "horaTeorica": "13:39:15",
+            "proximo": "21min",
+            "distancia": 21.466666666666697,
+            "cliente": 411,
+            "cliente_nombre": "CONIFERAL",
+            "linea_nombre": "40",
+            "ruta": "88",
+            "ruta_descripcion": "20 DE JUNIO A PARQUE LICEO III",
+            "hora_salida": "13:51",
+            "notificacion": "Se anula paradas en Maip\u00fa 444 y Maip\u00fa 770. Parada provisoria en Maip\u00fa 570.Av. Olmos - Av. Maip\u00fa (Carril derecho) - Su ruta"
+        },
+        {
+            "hora_salida": "14:19",
+            "coche": "0",
+            "cliente": 420,
+            "cliente_nombre": "FAM",
+            "linea": "71",
+            "linea_nombre": "71",
+            "ruta_descripcion": "VILLA BELGRANO A CABO FARINA",
+            "sentido": "V",
+            "distancia": 49.1,
+            "demora": "49min",
+            "color": "#029353",
+            "notificacion": "",
+            "ruta": "43"
+        }
+    ],
+    "respuesta": null,
+    "err": null,
+    "x": null,
+    "onlygps_array": {
+        "408": false,
+        "411": false,
+        "420": false,
+        "421": false
+    }
+} 

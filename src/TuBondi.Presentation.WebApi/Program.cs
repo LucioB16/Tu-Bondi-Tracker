@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using TuBondi.Application.Extensions;
 using TuBondi.Application.Queries.GetArrivalsForBoard;
@@ -57,17 +59,17 @@ app.MapGet("/api/arrivals", async (
                 arrival.RawMessage))
             .ToList();
 
-        http.Response.Headers["X-Stop-Code"] = result.Stop.Code;
-        http.Response.Headers["X-Stop-Description"] = result.Stop.Description;
+        http.Response.Headers["X-Stop-Code"] = SanitizeHeaderValue(result.Stop.Code);
+        http.Response.Headers["X-Stop-Description"] = SanitizeHeaderValue(result.Stop.Description);
         http.Response.Headers["X-Board-GeneratedAt"] = result.GeneratedAt.ToOffset(TimeSpan.FromHours(-3)).ToString("O");
         if (result.Notifications.Count > 0)
         {
-            http.Response.Headers["X-Board-Notifications"] = string.Join('|', result.Notifications.Select(n => n.Message));
+            http.Response.Headers["X-Board-Notifications"] = string.Join('|', result.Notifications.Select(n => SanitizeHeaderValue(n.Message)));
         }
 
         if (!string.IsNullOrWhiteSpace(result.ErrorMessage))
         {
-            http.Response.Headers["X-Board-Error"] = result.ErrorMessage;
+            http.Response.Headers["X-Board-Error"] = SanitizeHeaderValue(result.ErrorMessage);
         }
 
         return Results.Ok(payload);
@@ -80,3 +82,30 @@ app.MapGet("/health", () => Results.Ok(new { status = "ok" }));
 app.MapFallbackToPage("/Index");
 
 app.Run();
+
+static string SanitizeHeaderValue(string value)
+{
+    if (string.IsNullOrEmpty(value))
+    {
+        return string.Empty;
+    }
+
+    var normalized = value.Normalize(NormalizationForm.FormD);
+    var builder = new StringBuilder(normalized.Length);
+
+    foreach (var ch in normalized)
+    {
+        var unicodeCategory = CharUnicodeInfo.GetUnicodeCategory(ch);
+        if (unicodeCategory == UnicodeCategory.NonSpacingMark)
+        {
+            continue;
+        }
+
+        if (ch <= 127 && !char.IsControl(ch))
+        {
+            builder.Append(ch);
+        }
+    }
+
+    return builder.ToString();
+}

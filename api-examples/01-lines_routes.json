@@ -1,0 +1,1893 @@
+{
+    "lineas": [
+        {
+            "linea_id": "1",
+            "linea_nombre": "A",
+            "grupo": "1",
+            "color": "#0099CB",
+            "rutas": [
+                {
+                    "ruta_id": "1",
+                    "sentido": "I",
+                    "ruta_nombre": "MARIANO FRAGUEIRO A PLAZA DE LAS AMERICAS",
+                    "longitud": "27"
+                },
+                {
+                    "ruta_id": "4",
+                    "sentido": "V",
+                    "ruta_nombre": "PLAZA DE LAS AMERICA A MARIANO FRAGUEIRO",
+                    "longitud": "27"
+                }
+            ],
+            "cliente": 408,
+            "orden": 1
+        },
+        {
+            "linea_id": "21",
+            "linea_nombre": "A1",
+            "grupo": "1",
+            "color": "#0099CB",
+            "rutas": [
+                {
+                    "ruta_id": "15",
+                    "sentido": "I",
+                    "ruta_nombre": "MARIANO FRAGUEIRO A CONGRESO_1",
+                    "longitud": "44"
+                },
+                {
+                    "ruta_id": "17",
+                    "sentido": "V",
+                    "ruta_nombre": "CONGRESO A MARIANO FRAGUEIRO_1",
+                    "longitud": "60"
+                }
+            ],
+            "cliente": 408,
+            "orden": 2
+        },
+        {
+            "linea_id": "2",
+            "linea_nombre": "B",
+            "grupo": "2",
+            "color": "#0099CB",
+            "rutas": [
+                {
+                    "ruta_id": "6",
+                    "sentido": "I",
+                    "ruta_nombre": "AV COLON Y ZIPOLI A PUEYRREDON",
+                    "longitud": "27"
+                },
+                {
+                    "ruta_id": "8",
+                    "sentido": "V",
+                    "ruta_nombre": "PUEYRREDON A AV COLON Y ZIPOLI",
+                    "longitud": "27"
+                }
+            ],
+            "cliente": 408,
+            "orden": 3
+        },
+        {
+            "linea_id": "22",
+            "linea_nombre": "B1",
+            "grupo": "2",
+            "color": "#0099CB",
+            "rutas": [
+                {
+                    "ruta_id": "19",
+                    "sentido": "I",
+                    "ruta_nombre": "PUEYRREDON A ARGUELLO",
+                    "longitud": "49"
+                },
+                {
+                    "ruta_id": "18",
+                    "sentido": "V",
+                    "ruta_nombre": "ARGUELLO A PUEYRREDON",
+                    "longitud": "56"
+                }
+            ],
+            "cliente": 408,
+            "orden": 4
+        },
+        {
+            "linea_id": "3",
+            "linea_nombre": "C",
+            "grupo": "3",
+            "color": "#0099CB",
+            "rutas": [
+                {
+                    "ruta_id": "10",
+                    "sentido": "I",
+                    "ruta_nombre": "AMEGHINO A PLAZA LAVALLE",
+                    "longitud": "37"
+                },
+                {
+                    "ruta_id": "11",
+                    "sentido": "V",
+                    "ruta_nombre": "PLAZA LAVALLE A AMEGHINO",
+                    "longitud": "34"
+                }
+            ],
+            "cliente": 408,
+            "orden": 5
+        },
+        {
+            "linea_id": "23",
+            "linea_nombre": "C1",
+            "grupo": "3",
+            "color": "#0099CB",
+            "rutas": [
+                {
+                    "ruta_id": "21",
+                    "sentido": "I",
+                    "ruta_nombre": "AMEGHINO A ITUZAINGO",
+                    "longitud": "57"
+                },
+                {
+                    "ruta_id": "22",
+                    "sentido": "V",
+                    "ruta_nombre": "ITUZAINGO A AMEGHINO",
+                    "longitud": "57"
+                }
+            ],
+            "cliente": 408,
+            "orden": 6
+        },
+        {
+            "linea_id": "9",
+            "linea_nombre": "C2",
+            "grupo": "3",
+            "color": "#0099CB",
+            "rutas": [
+                {
+                    "ruta_id": "97",
+                    "sentido": "I",
+                    "ruta_nombre": "B\u00b0 QUINTA CAPILLITA \u2013 B\u00b0 EMANUEL II",
+                    "longitud": "26"
+                },
+                {
+                    "ruta_id": "96",
+                    "sentido": "V",
+                    "ruta_nombre": "B\u00b0 EMANUEL II \u2013 B\u00b0 QUINTA CAPILLITA",
+                    "longitud": "31"
+                }
+            ],
+            "cliente": 408,
+            "orden": 7
+        },
+        {
+            "linea_id": "10",
+            "linea_nombre": "10",
+            "grupo": "1",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "1",
+                    "sentido": "I",
+                    "ruta_nombre": "ITUZAINGO A LASALLE",
+                    "longitud": "85"
+                },
+                {
+                    "ruta_id": "4",
+                    "sentido": "V",
+                    "ruta_nombre": "LASALLE A ITUZAINGO",
+                    "longitud": "84"
+                }
+            ],
+            "cliente": 411,
+            "orden": 10
+        },
+        {
+            "linea_id": "11",
+            "linea_nombre": "11",
+            "grupo": "1",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "5",
+                    "sentido": "I",
+                    "ruta_nombre": "VILLA ALLENDE A VILLA BUSTOS",
+                    "longitud": "99"
+                },
+                {
+                    "ruta_id": "6",
+                    "sentido": "V",
+                    "ruta_nombre": "VILLA BUSTOS A VILLA ALLENDE",
+                    "longitud": "96"
+                }
+            ],
+            "cliente": 411,
+            "orden": 11
+        },
+        {
+            "linea_id": "12",
+            "linea_nombre": "12",
+            "grupo": "1",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "7",
+                    "sentido": "I",
+                    "ruta_nombre": "ITUZAINGO A POLICIAL",
+                    "longitud": "99"
+                },
+                {
+                    "ruta_id": "8",
+                    "sentido": "V",
+                    "ruta_nombre": "POLICIAL A ITUZAINGO",
+                    "longitud": "100"
+                }
+            ],
+            "cliente": 411,
+            "orden": 12
+        },
+        {
+            "linea_id": "13",
+            "linea_nombre": "13",
+            "grupo": "1",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "9",
+                    "sentido": "I",
+                    "ruta_nombre": "C. UNIVERSITARIA A VILLA RIVERA INDARTE",
+                    "longitud": "78"
+                },
+                {
+                    "ruta_id": "10",
+                    "sentido": "V",
+                    "ruta_nombre": "VILLA RIVERA INDARTE A C. UNIVERSITARIA",
+                    "longitud": "80"
+                }
+            ],
+            "cliente": 411,
+            "orden": 13
+        },
+        {
+            "linea_id": "14",
+            "linea_nombre": "14",
+            "grupo": "1",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "12",
+                    "sentido": "I",
+                    "ruta_nombre": "POLICIAL A 1\u00b0 DE MAYO",
+                    "longitud": "105"
+                },
+                {
+                    "ruta_id": "11",
+                    "sentido": "V",
+                    "ruta_nombre": "1\u00b0 DE MAYO A POLICIAL",
+                    "longitud": "99"
+                }
+            ],
+            "cliente": 411,
+            "orden": 14
+        },
+        {
+            "linea_id": "15",
+            "linea_nombre": "15",
+            "grupo": "1",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "13",
+                    "sentido": "I",
+                    "ruta_nombre": "VILLA ALLENDE PARQUE A AMPLIACION FERREYRA",
+                    "longitud": "92"
+                },
+                {
+                    "ruta_id": "14",
+                    "sentido": "V",
+                    "ruta_nombre": "AMPLIACION FERREYRA A VILLA ALLENDE PARQUE",
+                    "longitud": "94"
+                }
+            ],
+            "cliente": 411,
+            "orden": 15
+        },
+        {
+            "linea_id": "16",
+            "linea_nombre": "16",
+            "grupo": "1",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "16",
+                    "sentido": "I",
+                    "ruta_nombre": "CIUDAD UNIVERSITARIA A 25 DE MAYO",
+                    "longitud": "73"
+                },
+                {
+                    "ruta_id": "15",
+                    "sentido": "V",
+                    "ruta_nombre": "25 DE MAYO A CIUDAD UNIVERSITARIA",
+                    "longitud": "63"
+                }
+            ],
+            "cliente": 411,
+            "orden": 16
+        },
+        {
+            "linea_id": "17",
+            "linea_nombre": "17",
+            "grupo": "1",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "77",
+                    "sentido": "I",
+                    "ruta_nombre": "ITUZAINGO A NUEVA ESPERANZA",
+                    "longitud": "109"
+                },
+                {
+                    "ruta_id": "78",
+                    "sentido": "V",
+                    "ruta_nombre": "NUEVA ESPERANZA A ITUZAINGO",
+                    "longitud": "111"
+                }
+            ],
+            "cliente": 411,
+            "orden": 17
+        },
+        {
+            "linea_id": "18",
+            "linea_nombre": "18",
+            "grupo": "1",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "19",
+                    "sentido": "I",
+                    "ruta_nombre": "C. UNIVERSITARIA A SALDAN",
+                    "longitud": "79"
+                },
+                {
+                    "ruta_id": "20",
+                    "sentido": "V",
+                    "ruta_nombre": "SALDAN A C. UNIVERSITARIA",
+                    "longitud": "77"
+                }
+            ],
+            "cliente": 411,
+            "orden": 18
+        },
+        {
+            "linea_id": "19",
+            "linea_nombre": "19",
+            "grupo": "1",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "21",
+                    "sentido": "I",
+                    "ruta_nombre": "C. UNVERSITARIA A VILLA WARCALDE",
+                    "longitud": "76"
+                },
+                {
+                    "ruta_id": "22",
+                    "sentido": "V",
+                    "ruta_nombre": "VILLA WARCALDE A C. UNIVERSITARIA",
+                    "longitud": "78"
+                }
+            ],
+            "cliente": 411,
+            "orden": 19
+        },
+        {
+            "linea_id": "20",
+            "linea_nombre": "20",
+            "grupo": "2",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "5",
+                    "sentido": "I",
+                    "ruta_nombre": "CERVECEROS A SANTA CECILIA",
+                    "longitud": "67"
+                },
+                {
+                    "ruta_id": "6",
+                    "sentido": "V",
+                    "ruta_nombre": "SANTA CECILIA A CERVECEROS",
+                    "longitud": "62"
+                }
+            ],
+            "cliente": 420,
+            "orden": 20
+        },
+        {
+            "linea_id": "21",
+            "linea_nombre": "21",
+            "grupo": "2",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "73",
+                    "sentido": "I",
+                    "ruta_nombre": "SIGLO XXI - UTN",
+                    "longitud": "52"
+                },
+                {
+                    "ruta_id": "74",
+                    "sentido": "V",
+                    "ruta_nombre": "UTN - SIGLO XXI",
+                    "longitud": "52"
+                }
+            ],
+            "cliente": 420,
+            "orden": 21
+        },
+        {
+            "linea_id": "22",
+            "linea_nombre": "22",
+            "grupo": "2",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "60",
+                    "sentido": "I",
+                    "ruta_nombre": "B MARQUES DE SOBREMONTE  - B KENNEDY",
+                    "longitud": "55"
+                },
+                {
+                    "ruta_id": "61",
+                    "sentido": "V",
+                    "ruta_nombre": "B KENNEDY - B MARQUES DE SOBREMONTE",
+                    "longitud": "56"
+                }
+            ],
+            "cliente": 420,
+            "orden": 22
+        },
+        {
+            "linea_id": "23",
+            "linea_nombre": "23",
+            "grupo": "2",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "7",
+                    "sentido": "I",
+                    "ruta_nombre": "SAN PABLO A BOULEVARES DE HORIZONTE",
+                    "longitud": "80"
+                },
+                {
+                    "ruta_id": "8",
+                    "sentido": "V",
+                    "ruta_nombre": "BOULEVARES DE HORIZONTE A SAN PABLO",
+                    "longitud": "79"
+                }
+            ],
+            "cliente": 420,
+            "orden": 23
+        },
+        {
+            "linea_id": "24",
+            "linea_nombre": "24",
+            "grupo": "2",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "10",
+                    "sentido": "I",
+                    "ruta_nombre": "MARQUES DE SOBREMONTE A SAN ANTONIO",
+                    "longitud": "51"
+                },
+                {
+                    "ruta_id": "11",
+                    "sentido": "V",
+                    "ruta_nombre": "SAN ANTONIO A MARQUEZ DE SOBREMONTE",
+                    "longitud": "64"
+                }
+            ],
+            "cliente": 420,
+            "orden": 24
+        },
+        {
+            "linea_id": "25",
+            "linea_nombre": "25",
+            "grupo": "2",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "80",
+                    "sentido": "I",
+                    "ruta_nombre": "SIGLO XXI - PQ EMPRESARIAL - FINCAS",
+                    "longitud": "77"
+                },
+                {
+                    "ruta_id": "12",
+                    "sentido": "I",
+                    "ruta_nombre": "UNIVERSIDAD SIGLO 21 A CNO SAN CARLOS",
+                    "longitud": "75"
+                },
+                {
+                    "ruta_id": "81",
+                    "sentido": "V",
+                    "ruta_nombre": "FINCAS - PQ EMPRESARIAL - SIGLO XXI",
+                    "longitud": "79"
+                },
+                {
+                    "ruta_id": "65",
+                    "sentido": "V",
+                    "ruta_nombre": "FINCAS DEL SUR A UNIVERSIDAD SIGLO XXI",
+                    "longitud": "78"
+                }
+            ],
+            "cliente": 420,
+            "orden": 25
+        },
+        {
+            "linea_id": "26",
+            "linea_nombre": "26",
+            "grupo": "2",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "62",
+                    "sentido": "I",
+                    "ruta_nombre": "B CABO FARINA - B LOS BOULEVARES",
+                    "longitud": "81"
+                },
+                {
+                    "ruta_id": "70",
+                    "sentido": "I",
+                    "ruta_nombre": "B CABO FARINA - B LOS CORTADEROS",
+                    "longitud": "75"
+                },
+                {
+                    "ruta_id": "86",
+                    "sentido": "V",
+                    "ruta_nombre": "B BOULEVARES - CORTADEROS - CABO FARINA",
+                    "longitud": "102"
+                },
+                {
+                    "ruta_id": "63",
+                    "sentido": "V",
+                    "ruta_nombre": "B LOS BOULEVARES - B CABO FARINA",
+                    "longitud": "98"
+                },
+                {
+                    "ruta_id": "64",
+                    "sentido": "V",
+                    "ruta_nombre": "B LOS CORTADEROS - B CABO FARINA",
+                    "longitud": "85"
+                }
+            ],
+            "cliente": 420,
+            "orden": 26
+        },
+        {
+            "linea_id": "27",
+            "linea_nombre": "27",
+            "grupo": "2",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "14",
+                    "sentido": "I",
+                    "ruta_nombre": "SAN PABLO A AUTODROMO",
+                    "longitud": "84"
+                },
+                {
+                    "ruta_id": "15",
+                    "sentido": "V",
+                    "ruta_nombre": "AUTODROMO A SAN PABLO",
+                    "longitud": "86"
+                }
+            ],
+            "cliente": 420,
+            "orden": 27
+        },
+        {
+            "linea_id": "28",
+            "linea_nombre": "28",
+            "grupo": "2",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "16",
+                    "sentido": "I",
+                    "ruta_nombre": "MARQUES DE SOBREMONTE A SAN PABLO",
+                    "longitud": "70"
+                },
+                {
+                    "ruta_id": "17",
+                    "sentido": "V",
+                    "ruta_nombre": "SAN PABLO A MARQUES DE SOBREMONTE",
+                    "longitud": "69"
+                }
+            ],
+            "cliente": 420,
+            "orden": 28
+        },
+        {
+            "linea_id": "29",
+            "linea_nombre": "29",
+            "grupo": "2",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "18",
+                    "sentido": "I",
+                    "ruta_nombre": "BOUWER A VILLA RIVADAVIA",
+                    "longitud": "82"
+                },
+                {
+                    "ruta_id": "19",
+                    "sentido": "V",
+                    "ruta_nombre": "VILLA RIVADAVIA A BOUWER",
+                    "longitud": "92"
+                }
+            ],
+            "cliente": 420,
+            "orden": 29
+        },
+        {
+            "linea_id": "30",
+            "linea_nombre": "B26",
+            "grupo": "1",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "93",
+                    "sentido": "I",
+                    "ruta_nombre": "MARIA LASTENIA - CPC N\u00b0 3 ARGUELLO",
+                    "longitud": "31"
+                },
+                {
+                    "ruta_id": "94",
+                    "sentido": "V",
+                    "ruta_nombre": "CPC N\u00b0 3 ARGUELLO - MARIA LASTENIA",
+                    "longitud": "31"
+                }
+            ],
+            "cliente": 420,
+            "orden": 29.5
+        },
+        {
+            "linea_id": "30",
+            "linea_nombre": "30",
+            "grupo": "4",
+            "color": "#fe27ff",
+            "rutas": [
+                {
+                    "ruta_id": "51",
+                    "sentido": "I",
+                    "ruta_nombre": "UNIV. CAT\u00d3LICA A BARRIO JUAN B. JUSTO",
+                    "longitud": "75"
+                },
+                {
+                    "ruta_id": "52",
+                    "sentido": "V",
+                    "ruta_nombre": "BARRIO JUAN B. JUSTO A UNIV. CAT\u00d3LICA",
+                    "longitud": "72"
+                }
+            ],
+            "cliente": 421,
+            "orden": 30
+        },
+        {
+            "linea_id": "31",
+            "linea_nombre": "31",
+            "grupo": "4",
+            "color": "#fe27ff",
+            "rutas": [
+                {
+                    "ruta_id": "49",
+                    "sentido": "I",
+                    "ruta_nombre": "SOLARES DE MANANTIALES A POLO SANITARIO",
+                    "longitud": "64"
+                },
+                {
+                    "ruta_id": "50",
+                    "sentido": "V",
+                    "ruta_nombre": "POLO SANITARIO A SOLARES DE MANANTIALES",
+                    "longitud": "62"
+                }
+            ],
+            "cliente": 421,
+            "orden": 31
+        },
+        {
+            "linea_id": "32",
+            "linea_nombre": "32",
+            "grupo": "4",
+            "color": "#fe27ff",
+            "rutas": [
+                {
+                    "ruta_id": "61",
+                    "sentido": "I",
+                    "ruta_nombre": "SANTA ISABEL A VILLA ALICIA RISLER",
+                    "longitud": "92"
+                },
+                {
+                    "ruta_id": "62",
+                    "sentido": "V",
+                    "ruta_nombre": "VILLA ALICIA RISLER A SANTA ISABEL",
+                    "longitud": "88"
+                }
+            ],
+            "cliente": 421,
+            "orden": 32
+        },
+        {
+            "linea_id": "33",
+            "linea_nombre": "33",
+            "grupo": "4",
+            "color": "#fe27ff",
+            "rutas": [
+                {
+                    "ruta_id": "63",
+                    "sentido": "I",
+                    "ruta_nombre": "SANTA ISABEL A CENTRO",
+                    "longitud": "63"
+                },
+                {
+                    "ruta_id": "64",
+                    "sentido": "V",
+                    "ruta_nombre": "CENTRO A SANTA ISABEL",
+                    "longitud": "58"
+                }
+            ],
+            "cliente": 421,
+            "orden": 33
+        },
+        {
+            "linea_id": "34",
+            "linea_nombre": "34",
+            "grupo": "4",
+            "color": "#fe27ff",
+            "rutas": [
+                {
+                    "ruta_id": "106",
+                    "sentido": "I",
+                    "ruta_nombre": "UNIV. DE HORIZONTE - UCC - CENTRO",
+                    "longitud": "54"
+                },
+                {
+                    "ruta_id": "53",
+                    "sentido": "I",
+                    "ruta_nombre": "UNIVERSITARIO DE HORIZONTE A CENTRO",
+                    "longitud": "52"
+                },
+                {
+                    "ruta_id": "107",
+                    "sentido": "V",
+                    "ruta_nombre": "CENTRO - UCC - UNIV. DE HORIZONTE",
+                    "longitud": "50"
+                },
+                {
+                    "ruta_id": "54",
+                    "sentido": "V",
+                    "ruta_nombre": "CENTRO A UNIVERSITARIO DE HORIZONTE",
+                    "longitud": "48"
+                }
+            ],
+            "cliente": 421,
+            "orden": 34
+        },
+        {
+            "linea_id": "35",
+            "linea_nombre": "35",
+            "grupo": "4",
+            "color": "#fe27ff",
+            "rutas": [
+                {
+                    "ruta_id": "104",
+                    "sentido": "I",
+                    "ruta_nombre": "U.C.C.\/CABILDO A MARQUEZ",
+                    "longitud": "72"
+                },
+                {
+                    "ruta_id": "105",
+                    "sentido": "V",
+                    "ruta_nombre": "MARQUEZ A CABILDO\/U.C.C.",
+                    "longitud": "73"
+                }
+            ],
+            "cliente": 421,
+            "orden": 35
+        },
+        {
+            "linea_id": "36",
+            "linea_nombre": "36",
+            "grupo": "4",
+            "color": "#fe27ff",
+            "rutas": [
+                {
+                    "ruta_id": "65",
+                    "sentido": "I",
+                    "ruta_nombre": "EL CHINGOLO A VILLA LIBERTADOR",
+                    "longitud": "91"
+                },
+                {
+                    "ruta_id": "66",
+                    "sentido": "V",
+                    "ruta_nombre": "VILLA EL LIBERTADOR A EL CHINGOLO",
+                    "longitud": "89"
+                }
+            ],
+            "cliente": 421,
+            "orden": 36
+        },
+        {
+            "linea_id": "40",
+            "linea_nombre": "40",
+            "grupo": "4",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "88",
+                    "sentido": "I",
+                    "ruta_nombre": "20 DE JUNIO A PARQUE LICEO III",
+                    "longitud": "91"
+                },
+                {
+                    "ruta_id": "89",
+                    "sentido": "V",
+                    "ruta_nombre": "PARQUE LICEO III A 20 DE JUNIO",
+                    "longitud": "97"
+                }
+            ],
+            "cliente": 411,
+            "orden": 40
+        },
+        {
+            "linea_id": "41",
+            "linea_nombre": "41",
+            "grupo": "4",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "97",
+                    "sentido": "I",
+                    "ruta_nombre": "C. UNIVERSITARIA A GUI\u00d1AZU",
+                    "longitud": "54"
+                },
+                {
+                    "ruta_id": "96",
+                    "sentido": "V",
+                    "ruta_nombre": "GUI\u00d1AZU A C. UNIVERSITARIA",
+                    "longitud": "66"
+                }
+            ],
+            "cliente": 411,
+            "orden": 41
+        },
+        {
+            "linea_id": "42",
+            "linea_nombre": "42",
+            "grupo": "4",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "98",
+                    "sentido": "I",
+                    "ruta_nombre": "PATRICIOS A PARQUE REPUBLICA",
+                    "longitud": "92"
+                },
+                {
+                    "ruta_id": "99",
+                    "sentido": "V",
+                    "ruta_nombre": "PARQUE REPUBLICA A PATRICIOS",
+                    "longitud": "79"
+                }
+            ],
+            "cliente": 411,
+            "orden": 42
+        },
+        {
+            "linea_id": "43",
+            "linea_nombre": "43",
+            "grupo": "4",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "92",
+                    "sentido": "I",
+                    "ruta_nombre": "20 DE JUNIO A CIUDAD UNIVERSITARIA",
+                    "longitud": "42"
+                },
+                {
+                    "ruta_id": "90",
+                    "sentido": "I",
+                    "ruta_nombre": "20 DE JUNIO A POLO SANITARIO",
+                    "longitud": "40"
+                },
+                {
+                    "ruta_id": "93",
+                    "sentido": "V",
+                    "ruta_nombre": "CIUDAD UNIVERSITARIA A 20 DE JUNIO",
+                    "longitud": "42"
+                },
+                {
+                    "ruta_id": "91",
+                    "sentido": "V",
+                    "ruta_nombre": "POLO SANITARIO A 20 DE JUNIO",
+                    "longitud": "41"
+                }
+            ],
+            "cliente": 411,
+            "orden": 43
+        },
+        {
+            "linea_id": "44",
+            "linea_nombre": "44",
+            "grupo": "4",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "100",
+                    "sentido": "I",
+                    "ruta_nombre": "PATRICIOS A VILLA UNION",
+                    "longitud": "90"
+                },
+                {
+                    "ruta_id": "101",
+                    "sentido": "V",
+                    "ruta_nombre": "VILLA UNION A PATRICIOS",
+                    "longitud": "86"
+                }
+            ],
+            "cliente": 411,
+            "orden": 44
+        },
+        {
+            "linea_id": "45",
+            "linea_nombre": "45",
+            "grupo": "4",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "94",
+                    "sentido": "I",
+                    "ruta_nombre": "20 DE JUNIO A UTN",
+                    "longitud": "56"
+                },
+                {
+                    "ruta_id": "95",
+                    "sentido": "V",
+                    "ruta_nombre": "UTN A 20 DE JUNIO",
+                    "longitud": "55"
+                }
+            ],
+            "cliente": 411,
+            "orden": 45
+        },
+        {
+            "linea_id": "50",
+            "linea_nombre": "50",
+            "grupo": "5",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "30",
+                    "sentido": "I",
+                    "ruta_nombre": "MOSCONI A VILLA LIBERTADOR",
+                    "longitud": "55"
+                },
+                {
+                    "ruta_id": "31",
+                    "sentido": "V",
+                    "ruta_nombre": "VILLA LIBERTADOR A MOSCONI",
+                    "longitud": "65"
+                }
+            ],
+            "cliente": 420,
+            "orden": 50
+        },
+        {
+            "linea_id": "51",
+            "linea_nombre": "51",
+            "grupo": "5",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "87",
+                    "sentido": "I",
+                    "ruta_nombre": "HOGAR III - VILLA ANGELELLI - CENTRO",
+                    "longitud": "44"
+                },
+                {
+                    "ruta_id": "89",
+                    "sentido": "I",
+                    "ruta_nombre": "VILLA ANGELELLI - CENTRO",
+                    "longitud": "44"
+                },
+                {
+                    "ruta_id": "88",
+                    "sentido": "V",
+                    "ruta_nombre": "CENTRO - VILLA ANGELELLI - HOGAR III",
+                    "longitud": "41"
+                }
+            ],
+            "cliente": 420,
+            "orden": 51
+        },
+        {
+            "linea_id": "52",
+            "linea_nombre": "52",
+            "grupo": "5",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "34",
+                    "sentido": "I",
+                    "ruta_nombre": "VILLA RETIRO A CABILDO",
+                    "longitud": "102"
+                },
+                {
+                    "ruta_id": "35",
+                    "sentido": "V",
+                    "ruta_nombre": "CABILDO A VILLA RETIRO ",
+                    "longitud": "96"
+                }
+            ],
+            "cliente": 420,
+            "orden": 52
+        },
+        {
+            "linea_id": "53",
+            "linea_nombre": "53",
+            "grupo": "5",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "186",
+                    "sentido": "I",
+                    "ruta_nombre": "EL CHINGOLO A B\u00b0 CABILDO",
+                    "longitud": "97"
+                },
+                {
+                    "ruta_id": "187",
+                    "sentido": "V",
+                    "ruta_nombre": "B\u00b0 CABILDO A EL CHINGOLO",
+                    "longitud": "99"
+                }
+            ],
+            "cliente": 420,
+            "orden": 53
+        },
+        {
+            "linea_id": "54",
+            "linea_nombre": "54",
+            "grupo": "5",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "188",
+                    "sentido": "I",
+                    "ruta_nombre": "EL CHINGOLO A POLO SANITARIO",
+                    "longitud": "74"
+                },
+                {
+                    "ruta_id": "189",
+                    "sentido": "V",
+                    "ruta_nombre": "POLO SANITARIO A EL CHINGOLO",
+                    "longitud": "67"
+                }
+            ],
+            "cliente": 420,
+            "orden": 54
+        },
+        {
+            "linea_id": "60",
+            "linea_nombre": "60",
+            "grupo": "2",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "55",
+                    "sentido": "I",
+                    "ruta_nombre": "PATRICIOS A SACCHI\/CARRARA DE HORIZONTE",
+                    "longitud": "84"
+                },
+                {
+                    "ruta_id": "56",
+                    "sentido": "V",
+                    "ruta_nombre": "SACCHI\/CARRARA DE HORIZONTE A PATRICIOS",
+                    "longitud": "89"
+                }
+            ],
+            "cliente": 411,
+            "orden": 60
+        },
+        {
+            "linea_id": "61",
+            "linea_nombre": "61",
+            "grupo": "2",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "83",
+                    "sentido": "I",
+                    "ruta_nombre": "YAPEY\u00da A SMATA",
+                    "longitud": "72"
+                },
+                {
+                    "ruta_id": "84",
+                    "sentido": "V",
+                    "ruta_nombre": "SMATA A YAPEY\u00da",
+                    "longitud": "75"
+                }
+            ],
+            "cliente": 411,
+            "orden": 61
+        },
+        {
+            "linea_id": "62",
+            "linea_nombre": "62",
+            "grupo": "2",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "59",
+                    "sentido": "I",
+                    "ruta_nombre": "NUESTRO HOGAR II A SAN ROQUE",
+                    "longitud": "91"
+                },
+                {
+                    "ruta_id": "60",
+                    "sentido": "V",
+                    "ruta_nombre": "SAN ROQUE A NUESTRO HOGAR II",
+                    "longitud": "95"
+                }
+            ],
+            "cliente": 411,
+            "orden": 62
+        },
+        {
+            "linea_id": "63",
+            "linea_nombre": "63",
+            "grupo": "2",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "29",
+                    "sentido": "I",
+                    "ruta_nombre": "PATRICIOS A REN\u00c9 FAVALORO",
+                    "longitud": "84"
+                },
+                {
+                    "ruta_id": "31",
+                    "sentido": "V",
+                    "ruta_nombre": "REN\u00c9 FAVALORO A PATRICIOS",
+                    "longitud": "83"
+                }
+            ],
+            "cliente": 411,
+            "orden": 63
+        },
+        {
+            "linea_id": "64",
+            "linea_nombre": "64",
+            "grupo": "2",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "57",
+                    "sentido": "I",
+                    "ruta_nombre": "ESTACI\u00d3N FLORES A YAPEY\u00da",
+                    "longitud": "62"
+                },
+                {
+                    "ruta_id": "58",
+                    "sentido": "V",
+                    "ruta_nombre": "YAPEY\u00da A ESTACI\u00d3N FLORES",
+                    "longitud": "64"
+                }
+            ],
+            "cliente": 411,
+            "orden": 64
+        },
+        {
+            "linea_id": "65",
+            "linea_nombre": "65",
+            "grupo": "2",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "34",
+                    "sentido": "I",
+                    "ruta_nombre": "PATRICIOS A SAN ROQUE",
+                    "longitud": "84"
+                },
+                {
+                    "ruta_id": "35",
+                    "sentido": "V",
+                    "ruta_nombre": "SAN ROQUE A PATRICIOS",
+                    "longitud": "82"
+                }
+            ],
+            "cliente": 411,
+            "orden": 65
+        },
+        {
+            "linea_id": "66",
+            "linea_nombre": "66",
+            "grupo": "2",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "36",
+                    "sentido": "I",
+                    "ruta_nombre": "C. UNIVERSITARIA A BARRIO ARENALES",
+                    "longitud": "70"
+                },
+                {
+                    "ruta_id": "37",
+                    "sentido": "V",
+                    "ruta_nombre": "BARRIO ARENALES A C. UNIVERSITARIA",
+                    "longitud": "62"
+                }
+            ],
+            "cliente": 411,
+            "orden": 66
+        },
+        {
+            "linea_id": "67",
+            "linea_nombre": "67",
+            "grupo": "2",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "38",
+                    "sentido": "I",
+                    "ruta_nombre": "C. UNIVERSITARIA A ESCUELA DE AVIACI\u00d3N",
+                    "longitud": "65"
+                },
+                {
+                    "ruta_id": "39",
+                    "sentido": "V",
+                    "ruta_nombre": "ESCUELA DE AVIACION A C. UNIVERSITARIA",
+                    "longitud": "70"
+                }
+            ],
+            "cliente": 411,
+            "orden": 67
+        },
+        {
+            "linea_id": "68",
+            "linea_nombre": "68",
+            "grupo": "2",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "40",
+                    "sentido": "I",
+                    "ruta_nombre": "LA FLORESTA A CENTRO",
+                    "longitud": "44"
+                },
+                {
+                    "ruta_id": "41",
+                    "sentido": "V",
+                    "ruta_nombre": "CENTRO A LA FLORESTA",
+                    "longitud": "49"
+                }
+            ],
+            "cliente": 411,
+            "orden": 68
+        },
+        {
+            "linea_id": "1",
+            "linea_nombre": "B60",
+            "grupo": "2",
+            "color": "#ff9500",
+            "rutas": [
+                {
+                    "ruta_id": "42",
+                    "sentido": "I",
+                    "ruta_nombre": "YOFRE NORTE A VILLA ESQUIU",
+                    "longitud": "25"
+                },
+                {
+                    "ruta_id": "43",
+                    "sentido": "V",
+                    "ruta_nombre": "VILLA ESQUIU A YOFRE NORTE",
+                    "longitud": "27"
+                }
+            ],
+            "cliente": 411,
+            "orden": 69
+        },
+        {
+            "linea_id": "70",
+            "linea_nombre": "70",
+            "grupo": "7",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "40",
+                    "sentido": "I",
+                    "ruta_nombre": "COLONIA LOLA A VALLE ESCONDIDO",
+                    "longitud": "79"
+                },
+                {
+                    "ruta_id": "41",
+                    "sentido": "V",
+                    "ruta_nombre": "VALLE ESCONDIDO A COLONIA LOLA",
+                    "longitud": "75"
+                }
+            ],
+            "cliente": 420,
+            "orden": 70
+        },
+        {
+            "linea_id": "71",
+            "linea_nombre": "71",
+            "grupo": "7",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "42",
+                    "sentido": "I",
+                    "ruta_nombre": "CABO FARINA A VILLA BELGRANO",
+                    "longitud": "76"
+                },
+                {
+                    "ruta_id": "43",
+                    "sentido": "V",
+                    "ruta_nombre": "VILLA BELGRANO A CABO FARINA",
+                    "longitud": "78"
+                }
+            ],
+            "cliente": 420,
+            "orden": 71
+        },
+        {
+            "linea_id": "72",
+            "linea_nombre": "72",
+            "grupo": "7",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "44",
+                    "sentido": "I",
+                    "ruta_nombre": "COLONIA LOLA A CHATEAU CARRERAS",
+                    "longitud": "72"
+                },
+                {
+                    "ruta_id": "45",
+                    "sentido": "V",
+                    "ruta_nombre": "CHATEAU CARRERAS A COLONIA LOLA",
+                    "longitud": "87"
+                },
+                {
+                    "ruta_id": "68",
+                    "sentido": "V",
+                    "ruta_nombre": "LA RESERVA - COLONIA LOLA",
+                    "longitud": "86"
+                }
+            ],
+            "cliente": 420,
+            "orden": 72
+        },
+        {
+            "linea_id": "73",
+            "linea_nombre": "73",
+            "grupo": "7",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "46",
+                    "sentido": "I",
+                    "ruta_nombre": "CABO FARINA A VILLA BOEDO",
+                    "longitud": "63"
+                },
+                {
+                    "ruta_id": "47",
+                    "sentido": "V",
+                    "ruta_nombre": "VILLA BOEDO A CABO FARINA",
+                    "longitud": "75"
+                }
+            ],
+            "cliente": 420,
+            "orden": 73
+        },
+        {
+            "linea_id": "74",
+            "linea_nombre": "74",
+            "grupo": "7",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "48",
+                    "sentido": "I",
+                    "ruta_nombre": "COLONIA LOLA A VILLA URQUIZA",
+                    "longitud": "69"
+                },
+                {
+                    "ruta_id": "49",
+                    "sentido": "V",
+                    "ruta_nombre": "VILLA URQUIZA A COLONIA LOLA",
+                    "longitud": "78"
+                }
+            ],
+            "cliente": 420,
+            "orden": 74
+        },
+        {
+            "linea_id": "75",
+            "linea_nombre": "75",
+            "grupo": "7",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "51",
+                    "sentido": "I",
+                    "ruta_nombre": "CAMPO DE LA RIVERA - CHATEAU CARRERAS",
+                    "longitud": "70"
+                },
+                {
+                    "ruta_id": "69",
+                    "sentido": "V",
+                    "ruta_nombre": "CHATEAU CARRERAS - CAMPO DE LA RIVERA",
+                    "longitud": "67"
+                }
+            ],
+            "cliente": 420,
+            "orden": 75
+        },
+        {
+            "linea_id": "76",
+            "linea_nombre": "76",
+            "grupo": "7",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "196",
+                    "sentido": "I",
+                    "ruta_nombre": "CABO FARINA A B\u00b0 VALLE ESCONDIDO",
+                    "longitud": "70"
+                },
+                {
+                    "ruta_id": "197",
+                    "sentido": "V",
+                    "ruta_nombre": "B\u00b0 VALLE ESCONDIDO A CABO FARINA",
+                    "longitud": "72"
+                }
+            ],
+            "cliente": 420,
+            "orden": 76
+        },
+        {
+            "linea_id": "5",
+            "linea_nombre": "B80",
+            "grupo": "2",
+            "color": "#fe27ff",
+            "rutas": [
+                {
+                    "ruta_id": "98",
+                    "sentido": "I",
+                    "ruta_nombre": "VILLA CNEL OLMEDO A TERMINAL\t",
+                    "longitud": "32"
+                },
+                {
+                    "ruta_id": "84",
+                    "sentido": "I",
+                    "ruta_nombre": "VILLA CNEL OLMEDO A POLO SANITARIO",
+                    "longitud": "31"
+                },
+                {
+                    "ruta_id": "59",
+                    "sentido": "I",
+                    "ruta_nombre": "VILLA CNEL OLMEDO A B\u00b0 CARCANO",
+                    "longitud": "14"
+                },
+                {
+                    "ruta_id": "85",
+                    "sentido": "V",
+                    "ruta_nombre": "POLO SANITARIO A VILLA CNEL OLMEDO",
+                    "longitud": "31"
+                },
+                {
+                    "ruta_id": "99",
+                    "sentido": "V",
+                    "ruta_nombre": "TERMINAL A VILLA CNEL OLMEDO",
+                    "longitud": "31"
+                },
+                {
+                    "ruta_id": "60",
+                    "sentido": "V",
+                    "ruta_nombre": "B\u00b0 CARCANO A VILLA CNEL OLMEDO",
+                    "longitud": "15"
+                }
+            ],
+            "cliente": 421,
+            "orden": 79
+        },
+        {
+            "linea_id": "80",
+            "linea_nombre": "80",
+            "grupo": "5",
+            "color": "#fe27ff",
+            "rutas": [
+                {
+                    "ruta_id": "67",
+                    "sentido": "I",
+                    "ruta_nombre": "CRNEL OLMEDO A CERRO",
+                    "longitud": "77"
+                },
+                {
+                    "ruta_id": "69",
+                    "sentido": "I",
+                    "ruta_nombre": "CNEL OLMEDO A IPEF",
+                    "longitud": "75"
+                },
+                {
+                    "ruta_id": "70",
+                    "sentido": "V",
+                    "ruta_nombre": "IPEF A CRNEL OLMEDO",
+                    "longitud": "81"
+                },
+                {
+                    "ruta_id": "68",
+                    "sentido": "V",
+                    "ruta_nombre": "CERRO A CRNEL OLMEDO",
+                    "longitud": "77"
+                }
+            ],
+            "cliente": 421,
+            "orden": 80
+        },
+        {
+            "linea_id": "81",
+            "linea_nombre": "81",
+            "grupo": "5",
+            "color": "#fe27ff",
+            "rutas": [
+                {
+                    "ruta_id": "71",
+                    "sentido": "I",
+                    "ruta_nombre": "CRNEL OLMEDO A CHATEAU CARRERAS",
+                    "longitud": "99"
+                },
+                {
+                    "ruta_id": "72",
+                    "sentido": "V",
+                    "ruta_nombre": "CHATEAU CARRERAS A CRNEL OLMEDO",
+                    "longitud": "102"
+                }
+            ],
+            "cliente": 421,
+            "orden": 81
+        },
+        {
+            "linea_id": "82",
+            "linea_nombre": "82",
+            "grupo": "5",
+            "color": "#fe27ff",
+            "rutas": [
+                {
+                    "ruta_id": "73",
+                    "sentido": "I",
+                    "ruta_nombre": "FERREYRA A RINCON BONITO",
+                    "longitud": "78"
+                },
+                {
+                    "ruta_id": "74",
+                    "sentido": "V",
+                    "ruta_nombre": "RINCON BONITO A FERREYRA",
+                    "longitud": "94"
+                }
+            ],
+            "cliente": 421,
+            "orden": 82
+        },
+        {
+            "linea_id": "83",
+            "linea_nombre": "83",
+            "grupo": "5",
+            "color": "#fe27ff",
+            "rutas": [
+                {
+                    "ruta_id": "75",
+                    "sentido": "I",
+                    "ruta_nombre": "JOSE IGNACIO DIAZ A ALTO ALBERDI",
+                    "longitud": "56"
+                },
+                {
+                    "ruta_id": "76",
+                    "sentido": "V",
+                    "ruta_nombre": "ALTO ALBERDI A JOSE IGNACIO DIAZ",
+                    "longitud": "57"
+                }
+            ],
+            "cliente": 421,
+            "orden": 83
+        },
+        {
+            "linea_id": "84",
+            "linea_nombre": "84",
+            "grupo": "5",
+            "color": "#fe27ff",
+            "rutas": [
+                {
+                    "ruta_id": "77",
+                    "sentido": "I",
+                    "ruta_nombre": "JOSE IGNACIO DIAZ A CENTRO",
+                    "longitud": "46"
+                },
+                {
+                    "ruta_id": "78",
+                    "sentido": "V",
+                    "ruta_nombre": "CENTRO A JOSE IGNACIO DIAZ",
+                    "longitud": "43"
+                }
+            ],
+            "cliente": 421,
+            "orden": 84
+        },
+        {
+            "linea_id": "85",
+            "linea_nombre": "85",
+            "grupo": "5",
+            "color": "#fe27ff",
+            "rutas": [
+                {
+                    "ruta_id": "79",
+                    "sentido": "I",
+                    "ruta_nombre": "CORONEL OLMEDO A CENTRO",
+                    "longitud": "45"
+                },
+                {
+                    "ruta_id": "80",
+                    "sentido": "V",
+                    "ruta_nombre": "CENTRO A CORONEL OLMEDO",
+                    "longitud": "58"
+                }
+            ],
+            "cliente": 421,
+            "orden": 85
+        },
+        {
+            "linea_id": "60",
+            "linea_nombre": "600",
+            "grupo": "1",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "192",
+                    "sentido": "I",
+                    "ruta_nombre": "CNO. SAN CARLOS - B\u00b0 LOS PARAISOS",
+                    "longitud": "104"
+                },
+                {
+                    "ruta_id": "193",
+                    "sentido": "V",
+                    "ruta_nombre": "B\u00b0 LOS PARAISOS - CNO. SAN CARLOS",
+                    "longitud": "74"
+                }
+            ],
+            "cliente": 420,
+            "orden": 600
+        },
+        {
+            "linea_id": "61",
+            "linea_nombre": "601",
+            "grupo": "1",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "194",
+                    "sentido": "I",
+                    "ruta_nombre": "CNO. SAN CARLOS - B\u00b0 ZUMARAN",
+                    "longitud": "82"
+                },
+                {
+                    "ruta_id": "195",
+                    "sentido": "V",
+                    "ruta_nombre": "B\u00b0 ZUMARAN - CNO. SAN CARLOS",
+                    "longitud": "99"
+                }
+            ],
+            "cliente": 420,
+            "orden": 601
+        },
+        {
+            "linea_id": "6",
+            "linea_nombre": "AEROBUS",
+            "grupo": "6",
+            "color": "#0099CB",
+            "rutas": [
+                {
+                    "ruta_id": "90",
+                    "sentido": "I",
+                    "ruta_nombre": "TERMINAL AL AEROPUERTO",
+                    "longitud": "18"
+                },
+                {
+                    "ruta_id": "91",
+                    "sentido": "V",
+                    "ruta_nombre": "AEROPUERTO A TERMINAL",
+                    "longitud": "20"
+                }
+            ],
+            "cliente": 408,
+            "orden": 900
+        },
+        {
+            "linea_id": "97",
+            "linea_nombre": "Quebrachal",
+            "grupo": "1",
+            "color": "#029353",
+            "rutas": [
+                {
+                    "ruta_id": "202",
+                    "sentido": "I",
+                    "ruta_nombre": "Terminal - Quebrachal",
+                    "longitud": "25"
+                },
+                {
+                    "ruta_id": "203",
+                    "sentido": "V",
+                    "ruta_nombre": "Quebrachal - Terminal",
+                    "longitud": "19"
+                }
+            ],
+            "cliente": 420,
+            "orden": 901
+        }
+    ],
+    "lineascrc": "3c94a94c",
+    "grupos": [
+        {
+            "cliente_id": "408",
+            "grupo_id": "1",
+            "nombre": "CORREDOR A",
+            "troncal": "21"
+        },
+        {
+            "cliente_id": "408",
+            "grupo_id": "2",
+            "nombre": "CORREDOR B",
+            "troncal": "22"
+        },
+        {
+            "cliente_id": "408",
+            "grupo_id": "3",
+            "nombre": "CORREDOR C",
+            "troncal": "23"
+        },
+        {
+            "cliente_id": "408",
+            "grupo_id": "4",
+            "nombre": "CORREDOR 30",
+            "troncal": "0"
+        },
+        {
+            "cliente_id": "408",
+            "grupo_id": "5",
+            "nombre": "CORREDOR 80",
+            "troncal": "80"
+        },
+        {
+            "cliente_id": "408",
+            "grupo_id": "6",
+            "nombre": "AEROBUS",
+            "troncal": "6"
+        },
+        {
+            "cliente_id": "411",
+            "grupo_id": "1",
+            "nombre": "CORREDOR 10",
+            "troncal": "10"
+        },
+        {
+            "cliente_id": "411",
+            "grupo_id": "2",
+            "nombre": "CORREDOR 60",
+            "troncal": "60"
+        },
+        {
+            "cliente_id": "411",
+            "grupo_id": "4",
+            "nombre": "CORREDOR 40",
+            "troncal": "40"
+        },
+        {
+            "cliente_id": "411",
+            "grupo_id": "5",
+            "nombre": "CORREDOR 1 METROPOLITANO",
+            "troncal": "0"
+        },
+        {
+            "cliente_id": "420",
+            "grupo_id": "1",
+            "nombre": "Anulares - Barrial",
+            "troncal": "60"
+        },
+        {
+            "cliente_id": "420",
+            "grupo_id": "2",
+            "nombre": "CORREDOR 20",
+            "troncal": "20"
+        },
+        {
+            "cliente_id": "420",
+            "grupo_id": "5",
+            "nombre": "CORREDOR 50",
+            "troncal": "50"
+        },
+        {
+            "cliente_id": "420",
+            "grupo_id": "7",
+            "nombre": "CORREDOR 70",
+            "troncal": "70"
+        },
+        {
+            "cliente_id": "421",
+            "grupo_id": "1",
+            "nombre": "LINEA A",
+            "troncal": "21"
+        },
+        {
+            "cliente_id": "421",
+            "grupo_id": "2",
+            "nombre": "BARRIAL 80",
+            "troncal": "0"
+        },
+        {
+            "cliente_id": "421",
+            "grupo_id": "3",
+            "nombre": "LINEA C",
+            "troncal": "23"
+        },
+        {
+            "cliente_id": "421",
+            "grupo_id": "4",
+            "nombre": "CORREDOR 30",
+            "troncal": "0"
+        },
+        {
+            "cliente_id": "421",
+            "grupo_id": "5",
+            "nombre": "CORREDOR 80",
+            "troncal": "80"
+        }
+    ],
+    "metro": [],
+    "clientes": [
+        {
+            "id": 408,
+            "nombre": "TAMSE",
+            "jurisdicciones": "1",
+            "color": "#0099CB",
+            "usa_ruta": true,
+            "demora_de_coches": "2",
+            "lin_circular": "",
+            "no_mostrar_diagramado": false
+        },
+        {
+            "id": 411,
+            "nombre": "CONIFERAL",
+            "jurisdicciones": "1",
+            "color": "#ff9500",
+            "usa_ruta": true,
+            "demora_de_coches": "2",
+            "lin_circular": "",
+            "no_mostrar_diagramado": false
+        },
+        {
+            "id": 420,
+            "nombre": "FAM",
+            "jurisdicciones": "1",
+            "color": "#029353",
+            "usa_ruta": true,
+            "demora_de_coches": "2",
+            "lin_circular": "",
+            "no_mostrar_diagramado": false
+        },
+        {
+            "id": 421,
+            "nombre": "Si Bus",
+            "jurisdicciones": "1",
+            "color": "#fe27ff",
+            "usa_ruta": true,
+            "demora_de_coches": "2",
+            "lin_circular": ""
+        }
+    ]
+}

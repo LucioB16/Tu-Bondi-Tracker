@@ -56,9 +56,10 @@ public sealed class TuBondiGateway : ITransitDataSource
         }
 
         var cacheKey = $"arrivals::{stopCode.ToUpperInvariant()}";
-        if (_cache.TryGetValue(cacheKey, out BoardSnapshot cachedSnapshot))
+        if (_cache.TryGetValue(cacheKey, out BoardSnapshot? cachedSnapshot))
         {
-            return cachedSnapshot;
+            if (cachedSnapshot is not null)
+                return cachedSnapshot;
         }
 
         var snapshot = await _cache.GetOrCreateAsync(cacheKey, entry =>
@@ -123,7 +124,8 @@ public sealed class TuBondiGateway : ITransitDataSource
     private static AsyncPolicyWrap<ArrivalsResponse> BuildPolicy()
     {
         var jitter = new Random();
-        var retry = Policy
+
+        var retry = Policy<ArrivalsResponse>
             .Handle<Exception>(ex => ex is HttpRequestException or TaskCanceledException)
             .WaitAndRetryAsync(3, attempt =>
             {
@@ -132,7 +134,7 @@ public sealed class TuBondiGateway : ITransitDataSource
                 return baseDelay + extra;
             });
 
-        var breaker = Policy
+        var breaker = Policy<ArrivalsResponse>
             .Handle<Exception>(ex => ex is HttpRequestException or TaskCanceledException)
             .CircuitBreakerAsync(3, TimeSpan.FromSeconds(10));
 

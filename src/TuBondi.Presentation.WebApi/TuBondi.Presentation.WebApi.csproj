@@ -11,6 +11,6 @@
     <ProjectReference Include="../TuBondi.Infrastructure/TuBondi.Infrastructure.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="10.0.0" />
   </ItemGroup>
 </Project>

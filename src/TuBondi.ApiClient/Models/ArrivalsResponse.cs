@@ -25,6 +25,7 @@ public sealed class ArrivalsResponse
     /// Preferencias de filtrado OnlyGPS devueltas por el backend.
     /// </summary>
     [JsonPropertyName("onlygps_array")]
+    [JsonConverter(typeof(OnlyGpsArrayConverter))]
     public IDictionary<string, bool> OnlyGpsArray { get; init; } = new Dictionary<string, bool>();
 
     /// <summary>

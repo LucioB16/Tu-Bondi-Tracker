@@ -117,7 +117,7 @@ public sealed class Ruta
     /// Longitud de la ruta, reportada como cadena sin procesar.
     /// </summary>
     [JsonPropertyName("longitud")]
-    public string? Longitud { get; init; }
+    public string Longitud { get; init; } = string.Empty;
 }
 
 /// <summary>
@@ -126,7 +126,13 @@ public sealed class Ruta
 public sealed class Grupo
 {
     /// <summary>
-    /// Identificador del grupo.
+    /// Identificador del cliente al que pertenece el grupo.
+    /// </summary>
+    [JsonPropertyName("cliente_id")]
+    public string? ClienteId { get; init; }
+
+    /// <summary>
+    /// Identificador del grupo dentro del cliente.
     /// </summary>
     [JsonPropertyName("grupo_id")]
     public string? GrupoId { get; init; }
@@ -134,14 +140,14 @@ public sealed class Grupo
     /// <summary>
     /// Nombre amigable del grupo.
     /// </summary>
-    [JsonPropertyName("grupo_nombre")]
-    public string? GrupoNombre { get; init; }
+    [JsonPropertyName("nombre")]
+    public string? Nombre { get; init; }
 
     /// <summary>
-    /// Color asociado al grupo.
+    /// Número de troncal o referencia textual.
     /// </summary>
-    [JsonPropertyName("color")]
-    public string? Color { get; init; }
+    [JsonPropertyName("troncal")]
+    public string? Troncal { get; init; }
 }
 
 /// <summary>
@@ -159,6 +165,42 @@ public sealed class Cliente
     /// <summary>
     /// Nombre del cliente.
     /// </summary>
-    [JsonPropertyName("cliente_nombre")]
-    public string? ClienteNombre { get; init; }
+    [JsonPropertyName("nombre")]
+    public string Nombre { get; init; } = string.Empty;
+
+    /// <summary>
+    /// Jurisdicciones habilitadas para el cliente.
+    /// </summary>
+    [JsonPropertyName("jurisdicciones")]
+    public string Jurisdicciones { get; init; } = string.Empty;
+
+    /// <summary>
+    /// Color representativo provisto por la API.
+    /// </summary>
+    [JsonPropertyName("color")]
+    public string Color { get; init; } = string.Empty;
+
+    /// <summary>
+    /// Indica si la API expone rutas detalladas para el cliente.
+    /// </summary>
+    [JsonPropertyName("usa_ruta")]
+    public bool UsaRuta { get; init; }
+
+    /// <summary>
+    /// Valor crudo que describe la demora predeterminada de coches.
+    /// </summary>
+    [JsonPropertyName("demora_de_coches")]
+    public string DemoraDeCoches { get; init; } = string.Empty;
+
+    /// <summary>
+    /// Bandera textual que indica si la línea es circular.
+    /// </summary>
+    [JsonPropertyName("lin_circular")]
+    public string LinCircular { get; init; } = string.Empty;
+
+    /// <summary>
+    /// Indica si el diagramado debe ocultarse; la API puede omitir este campo.
+    /// </summary>
+    [JsonPropertyName("no_mostrar_diagramado")]
+    public bool? NoMostrarDiagramado { get; init; }
 }

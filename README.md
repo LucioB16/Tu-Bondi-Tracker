@@ -25,6 +25,14 @@ var coches = await client.QueryVehiclesByRouteAsync(rutaId: 99, clienteId: 411, 
 var arrivals = await client.GetArrivalsAsync(stopCode: "A911");
 ```
 
+## Notas sobre payloads reales
+
+- Las trazas y desvíos se modelan con arreglos posicionales: `TrazaPoint` espera `[lon, lat, course]` y cada `GeoPoint` de los desvíos usa `[lon, lat]`.
+- El arreglo `a` en `Arribo` siempre contiene cuatro dobles (`lon1`, `lat1`, `lon2`, `lat2`) que se mantienen sin alterar para cálculos posteriores.
+- `VehiclesByRouteResponse.Error` puede ser `null` o una lista de cadenas, y `demora_minutos` utiliza el centinela `99999` para indicar que la demora es desconocida.
+- Varias magnitudes llegan como cadenas o números indistintamente (lat/lon, cursos, distancias y tiempos), por lo que se proveen `FlexibleDoubleConverter`/`FlexibleIntConverter` para asegurar la deserialización.
+- Campos como `horaTeoricaAjustada`, `horaTeorica`, `demora` y `notificacion` son opcionales y pueden omitirse o llegar vacíos según la línea consultada.
+
 ## Endpoints cubiertos
 
 - `GET /web/urbano/?conf=...` (sesión inicial y cookie `PHPSESSID`).

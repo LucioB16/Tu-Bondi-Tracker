@@ -55,6 +55,14 @@ public sealed class RouteSelectionResponse
 public sealed record TrazaPoint(double Lon, double Lat, double Course);
 
 /// <summary>
+/// Representa un punto geográfico expresado como par lon/lat.
+/// </summary>
+/// <param name="Lon">Longitud en grados decimales.</param>
+/// <param name="Lat">Latitud en grados decimales.</param>
+[JsonConverter(typeof(GeoPointConverter))]
+public sealed record GeoPoint(double Lon, double Lat);
+
+/// <summary>
 /// Describe una parada perteneciente a una ruta.
 /// </summary>
 public sealed class Parada
@@ -107,7 +115,8 @@ public sealed class Parada
     /// Curso o ángulo del itinerario en la parada.
     /// </summary>
     [JsonPropertyName("curso")]
-    public string? Curso { get; init; }
+    [JsonConverter(typeof(FlexibleDoubleConverter))]
+    public double Curso { get; init; }
 
     /// <summary>
     /// Identificador textual del itinerario.
@@ -119,7 +128,8 @@ public sealed class Parada
     /// Identificador del cliente asociado.
     /// </summary>
     [JsonPropertyName("cliente")]
-    public string? Cliente { get; init; }
+    [JsonConverter(typeof(FlexibleIntConverter))]
+    public int Cliente { get; init; }
 
     /// <summary>
     /// Sentido en el que opera la parada.
@@ -134,14 +144,26 @@ public sealed class Parada
 public sealed class Notificacion
 {
     /// <summary>
-    /// Texto descriptivo de la notificación.
+    /// Nombre del archivo de icono asociado a la alerta.
     /// </summary>
-    [JsonPropertyName("mensaje")]
-    public string? Mensaje { get; init; }
+    [JsonPropertyName("icono")]
+    public string? Icono { get; init; }
 
     /// <summary>
-    /// Tipo o severidad de la notificación.
+    /// Título o categoría de la notificación estructurada.
     /// </summary>
-    [JsonPropertyName("tipo")]
-    public string? Tipo { get; init; }
+    [JsonPropertyName("titulo")]
+    public string? Titulo { get; init; }
+
+    /// <summary>
+    /// Texto descriptivo de la notificación.
+    /// </summary>
+    [JsonPropertyName("texto")]
+    public string? Texto { get; init; }
+
+    /// <summary>
+    /// Polilínea del desvío representada como pares lon/lat.
+    /// </summary>
+    [JsonPropertyName("desvio")]
+    public IReadOnlyList<GeoPoint>? Desvio { get; init; }
 }

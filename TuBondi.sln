@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuBondi.ApiClient", "src/TuBondi.ApiClient/TuBondi.ApiClient.csproj", "{E1F85E05-7B11-4D45-ABF1-6E34E2E996D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuBondi.Domain", "src/TuBondi.Domain/TuBondi.Domain.csproj", "{222F03AF-93B1-4F84-BC6E-2D4C5D6C7F63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuBondi.Application", "src/TuBondi.Application/TuBondi.Application.csproj", "{6DD3C6C2-98B8-4F88-ABEC-D2872E5D035E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuBondi.Infrastructure", "src/TuBondi.Infrastructure/TuBondi.Infrastructure.csproj", "{72153224-CEB5-4B6D-8225-7A604537B5D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuBondi.Presentation.WebApi", "src/TuBondi.Presentation.WebApi/TuBondi.Presentation.WebApi.csproj", "{B9B2A3C5-9252-4EB8-930D-5235E1061E2E}"
+EndProject
+Global
+GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+EndGlobalSection
+GlobalSection(ProjectConfigurationPlatforms) = postSolution
+{E1F85E05-7B11-4D45-ABF1-6E34E2E996D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{E1F85E05-7B11-4D45-ABF1-6E34E2E996D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{E1F85E05-7B11-4D45-ABF1-6E34E2E996D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{E1F85E05-7B11-4D45-ABF1-6E34E2E996D4}.Release|Any CPU.Build.0 = Release|Any CPU
+{222F03AF-93B1-4F84-BC6E-2D4C5D6C7F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{222F03AF-93B1-4F84-BC6E-2D4C5D6C7F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{222F03AF-93B1-4F84-BC6E-2D4C5D6C7F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{222F03AF-93B1-4F84-BC6E-2D4C5D6C7F63}.Release|Any CPU.Build.0 = Release|Any CPU
+{6DD3C6C2-98B8-4F88-ABEC-D2872E5D035E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{6DD3C6C2-98B8-4F88-ABEC-D2872E5D035E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{6DD3C6C2-98B8-4F88-ABEC-D2872E5D035E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{6DD3C6C2-98B8-4F88-ABEC-D2872E5D035E}.Release|Any CPU.Build.0 = Release|Any CPU
+{72153224-CEB5-4B6D-8225-7A604537B5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{72153224-CEB5-4B6D-8225-7A604537B5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{72153224-CEB5-4B6D-8225-7A604537B5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{72153224-CEB5-4B6D-8225-7A604537B5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+{B9B2A3C5-9252-4EB8-930D-5235E1061E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{B9B2A3C5-9252-4EB8-930D-5235E1061E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{B9B2A3C5-9252-4EB8-930D-5235E1061E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{B9B2A3C5-9252-4EB8-930D-5235E1061E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+EndGlobalSection
+GlobalSection(SolutionProperties) = preSolution
+HideSolutionNode = FALSE
+EndGlobalSection
+EndGlobal

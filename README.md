@@ -1,7 +1,19 @@
 # Córdoba Transit Tracker
 
-## ¿Qué es este proyecto?
-Este repositorio implementa un tablero web inspirado en el proyecto [Transit Tracker](https://transit-tracker.eastsideurbanism.org/) para mostrar los próximos arribos de los colectivos 40, 42 y 71 en la parada **AV. DUARTE QUIROS 1717-1728 (A911)** de Córdoba Capital. El objetivo es ofrecer un MVP listo para desplegar que reutiliza el cliente oficial de Tu Bondi (`TuBondi.ApiClient`) y mantiene toda la lógica en el servidor (ningún navegador llama a la API municipal).
+**Un tablero de llegadas de colectivos, pensado para leer de un vistazo.**
+
+Aplicación web en **.NET 10 / C#** que muestra los próximos arribos de las líneas **40, 42 y 71** en la parada **Av. Duarte Quirós 1717–1728 (A911)** de Córdoba Capital. El backend consulta Tu Bondi y expone datos normalizados a una pantalla estilo LED; el navegador no llama directamente a la API municipal.
+
+![Referencia vectorial del diseño del tablero LED](docs/led-board.svg)
+
+**[Ejecutarlo localmente](#instalación-y-ejecución-local-paso-a-paso)** · [Ver arquitectura](#cómo-funciona-de-punta-a-punta) · [Configurar otra parada](#configuración).
+
+| Para quien espera | Para quien despliega | Para quien desarrolla |
+| :-- | :-- | :-- |
+| Próximos arribos, líneas y alertas de servicio. | Configuración por variables de entorno y Docker. | Clean Architecture, Web API, reintentos y caché. |
+
+> [!NOTE]
+> El SVG de arriba es un **recurso de referencia del proyecto**, no una captura de tráfico en vivo. Los arribos dependen de la disponibilidad de la fuente externa Tu Bondi.
 
 ## ¿Cómo funciona (de punta a punta)?
 La solución sigue arquitectura limpia (Domain → Application → Infrastructure → Presentation) y mantiene la sesión `PHPSESSID` en el backend. El flujo completo es:
@@ -112,8 +124,7 @@ Cobertura principal:
 - **Seguridad**: usa HTTPS siempre (`https://micronauta4.dnsalias.net`).
 
 ## Capturas y demo
-- SVG de referencia (`docs/led-board.svg`):
-  ![Tablero LED de ejemplo](docs/led-board.svg)
+- [Referencia vectorial del tablero LED](docs/led-board.svg) (también visible al comienzo de este README).
 - Inspiración oficial: [https://transit-tracker.eastsideurbanism.org/docs/build-guide/materials](https://transit-tracker.eastsideurbanism.org/docs/build-guide/materials)
 
 ## Preguntas Frecuentes (FAQ)
@@ -141,4 +152,5 @@ Cobertura principal:
 - Fuente de datos Tu Bondi: [https://micronauta4.dnsalias.net/web/urbano/?conf=cbaciudad](https://micronauta4.dnsalias.net/web/urbano/?conf=cbaciudad)
 
 ## Licencia
-MIT. Consulta `LICENSE` para más detalles.
+
+[GNU GPL v3](LICENSE). El archivo `LICENSE` del repositorio contiene GPL-3.0; esta referencia corrige la mención anterior a MIT.
